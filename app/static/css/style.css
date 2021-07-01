@@ -63,3 +63,11 @@ footer.page-footer {
   background: #007bb5;
   color: white;
 }
+
+.profile-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-position: center center;
+  background-size: cover;
+}
