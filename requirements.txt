@@ -5,7 +5,7 @@ click
 Flask
 gast
 gunicorn
-html5lib==0.9999999
+html5lib==0.99999999
 itsdangerous
 Jinja2
 Markdown
