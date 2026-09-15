@@ -1,85 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<title>Frankie Cancino</title>
-		<link rel="icon" type="image/png" href="Favicon.jpg">
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-  		<link href="fontawesome/css/fontawesome-all.css" rel="stylesheet">
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136318532-1"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-
-		  gtag('config', 'UA-136318532-1');
-		</script>
+		<title>Frankie Cancino | Applied Machine Learning</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Frankie Cancino is a Senior Data Scientist at Mercedes-Benz Research & Development focused on applied machine learning.">
+		<link rel="icon" type="image/jpeg" href="images/favicon.jpg">
+		<link rel="stylesheet" href="fontawesome/css/fontawesome-all.css">
+		<link rel="stylesheet" href="assets/css/main.css">
 	</head>
-	<body class="is-loading">
-		<div id="flex-container">
-		<!-- Wrapper -->
-			<div id="wrapper">
-				<!-- Main -->
-					<section id="main">
-						<header>
-							<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
-							<h1>Frankie Cancino</h1>
-							<h3>Senior Data Scientist</h3>
-							<h3>Advisor - AI & Machine Learning</h3>
-							<h3>San Francisco Bay Area</h3>
-						</header>
-						<hr />
-						<!-- Arctype -->
-							<h3>Arctype Ventures</h3>
-							<ul class="actions">
-								<span class="fa arctype-logo">
-									<li><a href="https://arctypeventures.com" target="_blank" >
-										<img src="images/arctype_19x.png" alt=""/>
-									</a></li>
-								</span>
-							</ul>
-						<hr />
-						<!-- Articles -->
-							<h3>Articles</h3>
-							<ul class="actions">
-								<li><a href="https://frankiecancino.medium.com" target="_blank" class="fab fa-medium fa-5x"></a></li>
-							</ul>
-						<hr />
-						<!-- Code -->
-							<h3>Code</h3>
-							<ul class="actions">
-								<li><a href="https://github.com/frankiecancino" target="_blank" class="fab fa-github fa-5x"></a></li>
-								<li><a href="https://github.com/target/matrixprofile-ts" target="_blank" class="fa fa-dot-circle-o fa-5x"></a></li>
-							</ul>
-						<hr />
-						<!-- Connect -->
-							<h3>Connect</h3>
-						<footer>
-							<ul class="actions">
-								<li><a href="https://www.linkedin.com/in/frankie-cancino" target="_blank" class="fab fa-linkedin fa-5x"></a></li>
-								<li><a href="https://www.instagram.com/frankie.cancino/" target="_blank" class="fab fa-instagram fa-5x"></a></li>
-							</ul>
-						</footer>
-					</section>
+	<body>
+		<main class="shell">
+			<section class="intro" aria-labelledby="name">
+				<a class="avatar" href="https://www.linkedin.com/in/frankie-cancino" target="_blank" rel="noreferrer">
+					<img src="images/headshot.jpeg" alt="Frankie Cancino">
+				</a>
+				<div>
+					<p class="eyebrow">Senior Data Scientist / Applied ML</p>
+					<h1 id="name">Frankie Cancino</h1>
+					<p class="summary">I architect and deploy end-to-end AI/ML systems, turning complex data into useful products and measurable outcomes.</p>
+					<div class="links" aria-label="Professional links">
+						<a class="button button-primary" href="https://www.linkedin.com/in/frankie-cancino" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">-&gt;</span></a>
+						<a class="button" href="https://github.com/frankiecancino" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">-&gt;</span></a>
+					</div>
+				</div>
+			</section>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="copyright">
-							<li>&copy; Frankie Cancino</li>
-						</ul>
-					</footer>
+			<section class="work" aria-label="Projects and writing">
+				<div class="project-grid">
+					<a class="project" href="https://github.com/target/matrixprofile-ts" target="_blank" rel="noreferrer">
+						<span class="project-type">Open source / time series</span>
+						<h3>Matrix Profile</h3>
+						<p>Python tools for patterns, discords, and anomaly detection in time series.</p>
+						<span class="project-link">View project <span aria-hidden="true">-&gt;</span></span>
+					</a>
+					<a class="project" href="https://frankiecancino.medium.com" target="_blank" rel="noreferrer">
+						<span class="project-type">Applied ML</span>
+						<h3>Applied ML</h3>
+						<p>Technical perspectives on forecasting, deep learning, and responsible AI.</p>
+						<span class="project-link">Read more <span aria-hidden="true">-&gt;</span></span>
+					</a>
+				</div>
+			</section>
 
-			</div>
-		</div>
-		<script>
-			if ('addEventListener' in window) {
-				window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
-				document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-			}
-		</script>
+			<footer class="footer">
+				<span>&copy; 2026 Frankie</span>
+				<nav aria-label="Social links">
+					<a href="https://www.instagram.com/frankie.cancino/" target="_blank" rel="noreferrer">Instagram</a>
+					<a href="https://www.linkedin.com/in/frankie-cancino" target="_blank" rel="noreferrer">LinkedIn</a>
+				</nav>
+			</footer>
+		</main>
 	</body>
 </html>
